@@ -32,7 +32,7 @@ function App() {
       }
     };
     BMI > 0 && updateValues();
-  }, [height, heightIn, weight]);
+  }, [height, heightIn, weight, system]);
 
   const resetFields = () => {
     setBmi("");
