@@ -7,7 +7,7 @@
 }
 
 .border-outer {
-  @apply w-96 p-2 pt-0 flex flex-col text-gray-100;
+  @apply w-96 p-2 pt-0 flex flex-col text-gray-100 transition-colors duration-500 rounded;
 }
 
 .input-cards {

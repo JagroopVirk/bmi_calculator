@@ -47,7 +47,7 @@ function App() {
     <div className="App min-h-screen bg-black flex justify-center items-center">
       <section className={borderClass}>
         <h6 className="m-1 text-xl">BODY MASS INDEX CALCULATOR</h6>
-        <div className="bg-custom-gray flex-1">
+        <div className="bg-custom-gray flex-1 rounded">
           <div className="mt-2">
             <h2>
               Body Mass Index (BMI) = <span>{bmi}</span>
