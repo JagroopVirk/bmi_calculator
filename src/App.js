@@ -73,6 +73,7 @@ function App() {
               <input
                 className="input-fields"
                 type="number"
+                min="0"
                 value={height}
                 onChange={(e) => setHeight(e.target.value)}
               />
@@ -83,6 +84,8 @@ function App() {
                 <input
                   className="input-fields"
                   type="number"
+                  min="0"
+                  max="12"
                   value={heightIn}
                   onChange={(e) => setHeightIn(e.target.value)}
                 />
@@ -93,6 +96,7 @@ function App() {
               <input
                 className="input-fields"
                 type="number"
+                min="0"
                 value={weight}
                 onChange={(e) => setWeight(e.target.value)}
               />
